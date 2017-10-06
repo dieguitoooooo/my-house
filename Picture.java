@@ -79,6 +79,12 @@ public class Picture
             sun.changeColor("black");
         }
     }
+    public void moveSun()
+    {
+      sun.slowMoveVertical(120);
+
+    
+    }
 
     /**
      * Change this picture to use color display
