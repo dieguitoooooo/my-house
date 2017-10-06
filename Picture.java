@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle suelo;
+    private Person Pepito;
 
     /**
      * Constructor for objects of class Picture
@@ -82,6 +83,14 @@ public class Picture
     public void moveSun()
     {
       sun.slowMoveVertical(120);
+      Pepito = new Person();
+      Pepito.changeColor("pink");
+      Pepito.moveHorizontal(-200);
+      Pepito.moveVertical(50);
+      Pepito.makeVisible();
+      Pepito.slowMoveHorizontal(50);
+      
+      
 
     
     }
