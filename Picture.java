@@ -63,8 +63,6 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(300);
-        sun.slowMoveVertical(-300);
         
     }
 
